@@ -1,6 +1,6 @@
 <?php
 //server with default setting (user 'root' with no password)
-$host = 'localhost';  // server 
+$host = '172.17.0.3';  // server 
 $user = 'root';   
 $pass = "root@123";   
 $database = 'login_crud';   //Database Name  

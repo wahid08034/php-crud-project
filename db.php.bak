@@ -2,7 +2,7 @@
 //server with default setting (user 'root' with no password)
 $host = 'localhost';  // server 
 $user = 'root';   
-$pass = "";   
+$pass = "root@123";   
 $database = 'login_crud';   //Database Name  
 
 // establishing connection
@@ -13,5 +13,3 @@ $database = 'login_crud';   //Database Name
     die("Connection failed: " . mysqli_connect_error());     
   }
 ?>
-
-
