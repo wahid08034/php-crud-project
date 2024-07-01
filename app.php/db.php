@@ -1,9 +1,9 @@
 <?php
 //server with default setting (user 'root' with no password)
-$host = 'localhost';  // server 
-$user = 'root';   
-$pass = "root@123";   
-$database = 'login_crud';   //Database Name  
+$host = 'db_host';  // server 
+$user = 'db_user';   
+$pass = "db_password";   
+$database = 'db_name';   //Database Name  
 
 // establishing connection
   $conn = mysqli_connect($host,$user,$pass,$database);   
